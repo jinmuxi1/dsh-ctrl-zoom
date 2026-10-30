@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Ctrl + Wheel Zoom",
+    "description": "Hold Ctrl and scroll the wheel to zoom the whole interface. A bottom-right chip shows the level and returns to 100% on click; Ctrl+0 also resets it."
+  }
+}

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Zoom lens">
+  <rect width="64" height="64" rx="14" fill="#0f2a44"/>
+  <circle cx="27" cy="27" r="13" fill="none" stroke="#7cc4ff" stroke-width="4"/>
+  <path d="M36.6 36.6 48 48" stroke="#7cc4ff" stroke-width="5" stroke-linecap="round"/>
+  <path d="M21.5 27h11M27 21.5v11" stroke="#ffffff" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="48.5" cy="15.5" r="5.5" fill="#247bbf"/>
+  <path d="M48.5 12.5v6M45.5 15.5h6" stroke="#ffffff" stroke-width="1.8" stroke-linecap="round"/>
+</svg>
