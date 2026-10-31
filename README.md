@@ -23,25 +23,35 @@ untouched in the default state.
 ## Install
 
 This is an ordinary DSH **profile bundle**: plain ESM, no build step, no runtime
-dependencies.
+dependencies. No npm publication is required — install it straight from GitHub.
 
-1. Clone this repository:
+### From the DSH Plugins page (recommended)
 
-   ```bash
-   git clone https://github.com/jinmuxi1/dsh-ctrl-zoom.git
-   ```
-
-2. Ask the Harness agent to install the unpacked directory:
+1. Open **Plugins** in the DSH sidebar.
+2. Choose **Add plugin**, paste the repository address, and install:
 
    ```
-   plugin_manager  action: install_bundle
-                   target: <absolute path to this directory>
+   https://github.com/jinmuxi1/dsh-ctrl-zoom
    ```
 
-3. The bundle is selected in the active profile automatically. If the Web UI was
-   already open, refresh the page once (`Ctrl`/`⌘` + `R`).
+   If the field asks for a Git spec, use
+   `git+https://github.com/jinmuxi1/dsh-ctrl-zoom.git`.
+3. If the Web UI was already open, refresh the page once (`Ctrl`/`⌘` + `R`).
 
-A packed tarball works the same way:
+### From a local checkout
+
+```bash
+git clone https://github.com/jinmuxi1/dsh-ctrl-zoom.git
+```
+
+Then ask the Harness agent:
+
+```
+plugin_manager  action: install_bundle
+                target: <absolute path to the cloned directory>
+```
+
+### From a tarball
 
 ```bash
 npm pack
