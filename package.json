@@ -4,6 +4,14 @@
   "description": "Hold Ctrl and scroll the wheel to zoom the whole DeepSeek Harness Web UI.",
   "type": "module",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jinmuxi1/dsh-ctrl-zoom.git"
+  },
+  "homepage": "https://github.com/jinmuxi1/dsh-ctrl-zoom#readme",
+  "bugs": {
+    "url": "https://github.com/jinmuxi1/dsh-ctrl-zoom/issues"
+  },
   "exports": {
     ".": "./index.js",
     "./client": "./client.js",

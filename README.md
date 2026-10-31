@@ -25,7 +25,12 @@ untouched in the default state.
 This is an ordinary DSH **profile bundle**: plain ESM, no build step, no runtime
 dependencies.
 
-1. Clone or download this repository.
+1. Clone this repository:
+
+   ```bash
+   git clone https://github.com/jinmuxi1/dsh-ctrl-zoom.git
+   ```
+
 2. Ask the Harness agent to install the unpacked directory:
 
    ```
