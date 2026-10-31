@@ -62,6 +62,18 @@ plugin_manager  action: install_bundle
                 target: <absolute path to dsh-ctrl-zoom-1.0.0.tgz>
 ```
 
+## Migrating from `dsh-ctrl-wheel-zoom`
+
+If you previously installed the older `dsh-ctrl-wheel-zoom` bundle, remove it first:
+
+```
+plugin_manager  action: remove_bundle
+                target: dsh-ctrl-wheel-zoom
+```
+
+That bundle registers its client module under a different id than its package name, so
+enabling it fails the Web boot. This package is the maintained replacement.
+
 ## Uninstall
 
 ```
