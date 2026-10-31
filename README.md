@@ -23,20 +23,29 @@ untouched in the default state.
 ## Install
 
 This is an ordinary DSH **profile bundle**: plain ESM, no build step, no runtime
-dependencies. No npm publication is required — install it straight from GitHub.
+dependencies. It is published on npm as
+[`dsh-ctrl-zoom`](https://www.npmjs.com/package/dsh-ctrl-zoom) and can also be
+installed straight from GitHub.
 
-### From the DSH Plugins page (recommended)
+### From npm (recommended)
 
 1. Open **Plugins** in the DSH sidebar.
-2. Choose **Add plugin**, paste the repository address, and install:
+2. Choose **Add plugin**, enter the package name, and install:
 
    ```
-   https://github.com/jinmuxi1/dsh-ctrl-zoom
+   dsh-ctrl-zoom
    ```
 
-   If the field asks for a Git spec, use
-   `git+https://github.com/jinmuxi1/dsh-ctrl-zoom.git`.
+   Or ask the Harness agent:
+
+   ```
+   plugin_manager  action: install_bundle
+                   target: dsh-ctrl-zoom
+   ```
+
 3. If the Web UI was already open, refresh the page once (`Ctrl`/`⌘` + `R`).
+
+### From GitHub
 
 ### From a local checkout
 
