@@ -1,5 +1,9 @@
 # Ctrl + Wheel Zoom
 
+[![npm version](https://img.shields.io/npm/v/dsh-ctrl-zoom.svg)](https://www.npmjs.com/package/dsh-ctrl-zoom)
+[![npm downloads](https://img.shields.io/npm/dm/dsh-ctrl-zoom.svg?label=downloads%2Fmonth)](https://www.npmjs.com/package/dsh-ctrl-zoom)
+[![license](https://img.shields.io/npm/l/dsh-ctrl-zoom.svg)](https://github.com/jinmuxi1/dsh-ctrl-zoom/blob/main/LICENSE)
+
 Hold **Ctrl** (or **⌘** on macOS) and scroll the mouse wheel to zoom the whole
 [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) Web UI.
 A small chip at the frame's bottom-right corner reports the current level and
